@@ -1,0 +1,126 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.login-box {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 415px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    margin-top: 25%;
+    box-shadow: 0 0 5px #09383b, 0 0 10px #075256, 0 0 15px #227579, 0 0 20px #0a2f31;
+}
+
+.log {
+    margin: 0 0 50px;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 5px #03e9f4, 0 0 6px #03e9f4, 0 0 7px #03e9f4, 0 0 8px #03e9f4;
+    ;
+}
+
+.user-box {
+    position: relative;
+}
+
+.inp {
+    width: 100%;
+    padding: 0px 10px;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.lab {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inp:focus~label,
+.inb:valid~label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+
+.a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 35.5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    left: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.a:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+}
+
+.already {
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.already a {
+    text-decoration: none;
+    border-radius: 10%;
+    margin-left: 10px;
+    color: aqua;
+}
+
+.already a:hover {
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+    transition: .5s;
+    color: #fff;
+}
+
+.background {
+    position: absolute;
+    background-repeat: no-repeat;
+}
